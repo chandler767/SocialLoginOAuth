@@ -48,7 +48,7 @@ func main() {
 	log.Println("listening on localhost:" + os.Getenv("PORT"))
 	srv := &http.Server{
 		Handler:      p,
-		Addr:         "127.0.0.1:" + os.Getenv("PORT"),
+		Addr:         "0.0.0.0:" + os.Getenv("PORT"),
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}
