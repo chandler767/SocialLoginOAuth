@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/chandler767/SOCIALLOGINOAUTH/packages/dontlist"
-	"github.com/chandler767/SOCIALLOGINOAUTH/packages/token"
+	"github.com/chandler767/SocialLoginOAuth/packages/dontlist"
+	"github.com/chandler767/SocialLoginOAuth/packages/token"
 
 	"github.com/gorilla/mux"
 
