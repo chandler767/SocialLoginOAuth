@@ -24,7 +24,6 @@ func generateStateOauthCookie(w http.ResponseWriter) string {
 	var state = token.New("state")
 	cookie := http.Cookie{Name: "oauthstate", Value: state, Expires: expiration}
 	http.SetCookie(w, &cookie)
-
 	return state
 }
 
